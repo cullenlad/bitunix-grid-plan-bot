@@ -8,3 +8,8 @@ venv/
 .python-version
 venv/
 .bitunix_grid_bot/
+
+# runtime secrets
+.bitunix_grid_bot/
+*.json
+
