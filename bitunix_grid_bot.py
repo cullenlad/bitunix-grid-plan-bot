@@ -220,7 +220,7 @@ def tick_execute(c, cfg, plan, band_pct=None, max_place=None):
 
 def log_tick(cfg, plan, meta):
     st=plan_stats(plan)
-    ts=datetime.datetime.utcnow().isoformat()
+    ts=datetime.datetime.now(datetime.UTC).isoformat()
     with open(TICKCSV,"a",newline="") as f:
         w=csv.writer(f)
         w.writerow([ts,cfg["symbol"],meta.get("cap"),meta.get("hb"),meta.get("lb"),cfg.get("bandPct",3.0),st["total"],st["pending"],st["placed"],st["filled"],meta.get("placed_buys"),meta.get("placed_sells"),meta.get("qty"),meta.get("available"),cfg.get("leverage"),meta.get("sum_buy_prices")])
@@ -229,7 +229,7 @@ def export_snapshot(plan):
     with open(SNAPCSV,"w",newline="") as f:
         w=csv.writer(f)
         w.writerow(["ts_iso","symbol","idx","side","price","status","orderId"])
-        ts=datetime.datetime.utcnow().isoformat()
+        ts=datetime.datetime.now(datetime.UTC).isoformat()
         for i,L in enumerate(plan["levels"]):
             w.writerow([ts,plan["symbol"],i,L["side"],L["price"],L["status"],L["orderId"] if L["orderId"] else ""])
     return SNAPCSV

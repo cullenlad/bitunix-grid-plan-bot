@@ -1,0 +1,132 @@
+API connection successful!
+{
+    'leverage_margin_mode': {
+        'code': 0,
+        'data': {
+            'symbol': 'BTCUSDT',
+            'marginCoin': 'USDT',
+            'marginMode': 'CROSS',
+            'leverage': 3,
+            'longLeverage': 3,
+            'shortLeverage': 3
+        },
+        'msg': 'Success'
+    },
+    'single_account': {
+        'code': 0,
+        'data': {
+            'marginCoin': 'USDT',
+            'available': '3.6873396192158877',
+            'frozen': '676.0300000000000001',
+            'margin': '680.0636133333333334',
+            'transfer': '3.6873396192158877',
+            'positionMode': 'ONE_WAY',
+            'crossUnrealizedPNL': '4.68869',
+            'isolationUnrealizedPNL': '0',
+            'bonus': '0'
+        },
+        'msg': 'Success'
+    }
+}
+{
+    'tick_done': True,
+    'meta': {
+        'cap': 102345.7,
+        'hb': 102243.35,
+        'lb': 97131.18,
+        'qty': 0.0001,
+        'placed_buys': 0,
+        'placed_sells': 0,
+        'available': 3.6873396192158876,
+        'sum_buy_prices': 0
+    },
+    'stats': {'total': 50, 'placed': 0, 'filled': 2, 'pending': 48}
+}
+API connection successful!
+{
+    'leverage_margin_mode': {
+        'code': 0,
+        'data': {
+            'symbol': 'BTCUSDT',
+            'marginCoin': 'USDT',
+            'marginMode': 'CROSS',
+            'leverage': 3,
+            'longLeverage': 3,
+            'shortLeverage': 3
+        },
+        'msg': 'Success'
+    },
+    'single_account': {
+        'code': 0,
+        'data': {
+            'marginCoin': 'USDT',
+            'available': '3.6873396192158877',
+            'frozen': '676.0300000000000001',
+            'margin': '680.0636133333333334',
+            'transfer': '3.6873396192158877',
+            'positionMode': 'ONE_WAY',
+            'crossUnrealizedPNL': '5.52083',
+            'isolationUnrealizedPNL': '0',
+            'bonus': '0'
+        },
+        'msg': 'Success'
+    }
+}
+{
+    'tick_done': True,
+    'meta': {
+        'cap': 102398.6,
+        'hb': 102296.2,
+        'lb': 97181.39,
+        'qty': 0.0001,
+        'placed_buys': 0,
+        'placed_sells': 0,
+        'available': 3.6873396192158876,
+        'sum_buy_prices': 0
+    },
+    'stats': {'total': 50, 'placed': 0, 'filled': 2, 'pending': 48}
+}
+API connection successful!
+{
+    'leverage_margin_mode': {
+        'code': 0,
+        'data': {
+            'symbol': 'BTCUSDT',
+            'marginCoin': 'USDT',
+            'marginMode': 'CROSS',
+            'leverage': 3,
+            'longLeverage': 3,
+            'shortLeverage': 3
+        },
+        'msg': 'Success'
+    },
+    'single_account': {
+        'code': 0,
+        'data': {
+            'marginCoin': 'USDT',
+            'available': '1363.9715508825492212',
+            'frozen': '0',
+            'margin': '0',
+            'transfer': '1363.9715508825492212',
+            'positionMode': 'ONE_WAY',
+            'crossUnrealizedPNL': '0',
+            'isolationUnrealizedPNL': '0',
+            'bonus': '0'
+        },
+        'msg': 'Success'
+    }
+}
+{
+    'tick_done': True,
+    'meta': {
+        'cap': 102370.4,
+        'hb': 102268.03,
+        'lb': 97154.63,
+        'qty': 0.0001,
+        'placed_buys': 0,
+        'placed_sells': 0,
+        'available': 1363.9715508825493,
+        'sum_buy_prices': 0
+    },
+    'stats': {'total': 50, 'placed': 0, 'filled': 2, 'pending': 48}
+}

@@ -6,3 +6,5 @@ __pycache__/
 .idea/
 venv/
 .python-version
+venv/
+.bitunix_grid_bot/
